@@ -3,7 +3,7 @@ title = 'TheRU'
 theme = 'JuiceBar'
 
 [params]
-author = "your_name"
+author = "TheRU"
 description = "My site description"
 authorImage = "/images/saul.jpg"
 paginate = 5 

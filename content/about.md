@@ -1,8 +1,9 @@
 ---
 title: "關於我"
 date: 2019-04-26T20:18:54+03:00
-author: 陶淵明
+author: Theru
 layout: "about"
+heroimage: /images/saul.jpg
 ---
 
 ## 簡介
