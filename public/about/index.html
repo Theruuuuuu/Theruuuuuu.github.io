@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>關於我 | TheRU</title>
+    <meta name="description"
+        content="簡介 我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。
+技能 ASP.NET 6 MS SQL HTML CSS Bootstrap 目前在幹嘛 正在學習網頁相關的知識與技能，未來會想要成為全端工程師。">
+    <link rel="canonical" href="/about/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    
+    <link rel="stylesheet" href="/scss/style.min.d6341f25b6d8ae42bfd0057381190ef7cef03c7dc8842acc90df936fdde824d7.css">
+
+    <meta property="og:title" content="關於我" />
+<meta property="og:description" content="簡介 我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。
+技能 ASP.NET 6 MS SQL HTML CSS Bootstrap 目前在幹嘛 正在學習網頁相關的知識與技能，未來會想要成為全端工程師。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/about/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2019-04-26T20:18:54+03:00" />
+<meta property="article:modified_time" content="2019-04-26T20:18:54+03:00" /><meta property="og:site_name" content="我的存放處" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="關於我"/>
+<meta name="twitter:description" content="簡介 我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。
+技能 ASP.NET 6 MS SQL HTML CSS Bootstrap 目前在幹嘛 正在學習網頁相關的知識與技能，未來會想要成為全端工程師。"/>
+
+    
+    
+    
+
+</head><body><nav class="navbar is-light" role="navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" title="home" class="navbar-item">
+                <span class="logo">
+                    <h1>TheRU</h1>
+                </span>
+            </a>
+
+            
+            <a id="theme-toggle" class="theme-toggle" href="#">
+                <img src="svg/sun.svg" alt="sun icon" class="theme-icon" />
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                <a href="/about" class="navbar-item">About</a>
+                
+                <a href="/post" class="navbar-item">Blog</a>
+                
+                <a href="/categories" class="navbar-item">Categories</a>
+                
+            </div>
+
+        </div>
+        <div class="search">
+            <div id="fastSearch">
+                <input id="searchInput" tabindex="0" placeholder="Search..">
+                <ul id="searchResults">
+
+                </ul>
+            </div>
+            <a id="search-btn" style="display: inline-block;" href="# ">
+                <div class="icon-search"><svg class="search-svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></div>
+            </a>
+        </div>
+
+        <script src="/js/fuse.min.js"></script> 
+        <script src="/js/fastsearch.js"></script>
+
+    </div>
+</nav>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var burger = document.querySelector('.navbar-burger');
+        burger.addEventListener('click', function() {
+            burger.classList.toggle('is-active');
+            document.querySelector('.navbar-menu').classList.toggle('is-active');
+        });
+    });
+
+    
+    function setTheme(theme) {
+        let body = document.body;
+        let themeIcon = document.querySelector(".theme-icon");
+        if (theme === "dark") {
+            body.classList.add("dark-mode");
+            themeIcon.src = "svg/moon.svg";
+            themeIcon.alt = "moon icon";
+        } else {
+            body.classList.remove("dark-mode");
+            themeIcon.src = "svg/sun.svg";
+            themeIcon.alt = "sun icon";
+        }
+        
+        localStorage.setItem("theme", theme);
+    }
+
+    
+    let theme = localStorage.getItem("theme") || "light";
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (isDarkMode) {
+        
+        setTheme('dark');
+
+    } else {
+        
+        setTheme('light');
+    }
+    setTheme(theme);
+
+    
+    document.getElementById("theme-toggle").addEventListener("click", function() {
+        if (theme === "light") {
+            theme = "dark";
+        } else {
+            theme = "light";
+        }
+        setTheme(theme);
+    });
+
+
+
+</script>
+
+</header><main>
+<div class="single-container  is-centered">
+    <div class="archive">
+        <h1 class="title is-1">關於我</h1>
+        <div class="content about-content">
+            <h2 id="簡介">簡介</h2>
+<p>我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。</p>
+<h2 id="技能">技能</h2>
+<ul>
+<li>ASP.NET 6</li>
+<li>MS SQL</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+</ul>
+<h2 id="目前在幹嘛">目前在幹嘛</h2>
+<p>正在學習網頁相關的知識與技能，未來會想要成為全端工程師。</p>
+
+        </div>
+    </div>
+   
+</div>
+
+        </main><footer class="footer">
+    <div class="content has-text-centered">
+    <span>&copy; 2023 <a href="">TheRU</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" target="_blank">Hugo</a> &
+        <a href="https://github.com/hotjuicew/hugo-JuiceBar" target="_blank">JuiceBar</a>
+    </span>
+    </div>
+  </footer></body>
+</html>
+

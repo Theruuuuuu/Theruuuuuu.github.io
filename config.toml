@@ -1,0 +1,57 @@
+baseURL = 'https://theruuuuuu.github.io/'
+defaultContentLanguage = "zh-tw"
+title = 'TheRU'
+theme = 'JuiceBar'
+
+[params]
+author = "your_name"
+description = "My site description"
+authorImage = "/images/saul.jpg"
+paginate = 5 
+Title = "我的存放處"
+content = "安安你好   "
+imageUrl = "/images/saul.jpg"
+
+# 添加新的社交图标
+# 更多社交图标可以在JuiceBar\layouts\partials\svg.html中找到
+[[params.social]]
+name = "Github"
+url = "https://github.com/Theruuuuuu"
+[[params.social]]
+name = "email"
+url = "mailto:zxc3309634256@gmail.com"
+[[params.social]]
+name = "instagram"
+url = "your_url"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# 添加新的导航链接
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Blog"
+url = "/post"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+
+# 如果使用giscus评论系统
+#[params.giscus]
+#repo = "ENTER REPO HERE"
+#repoID = "ENTER REPO ID HERE"
+#category = "ENTER CATEGORY NAME HERE"
+#categoryID = "ENTER CATEGORY ID HERE"
+#mapping = "og:title"
+#reactionsEnabled = "1"
+#emitMetadata = "0"
+#inputPosition = "bottom"
+#lang = "en"
+#loading = "lazy"
+
+#用于输出文档的设置（必须的）
+[outputs]
+home = ["HTML", "RSS", "JSON"]
