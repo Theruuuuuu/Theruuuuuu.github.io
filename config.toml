@@ -1,5 +1,4 @@
 baseURL = 'https://theruuuuuu.github.io/'
-defaultContentLanguage = "zh-tw"
 title = 'TheRU'
 theme = 'JuiceBar'
 
