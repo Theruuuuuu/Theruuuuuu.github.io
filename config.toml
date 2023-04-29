@@ -38,6 +38,8 @@ url = "/post"
 name = "Categories"
 url = "/categories"
 
+googleAnalytics = "G-G9BY0NEES5"
+
 # 如果使用giscus评论系统
 #[params.giscus]
 #repo = "ENTER REPO HERE"

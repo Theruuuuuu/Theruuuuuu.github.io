@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on TheRU</title>
-    <link>/categories/test/</link>
+    <link>https://theruuuuuu.github.io/categories/test/</link>
     <description>Recent content in Test on TheRU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Apr 2023 11:30:03 +0000</lastBuildDate><atom:link href="/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Apr 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://theruuuuuu.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 1st post</title>
-      <link>/post/first/</link>
+      <link>https://theruuuuuu.github.io/post/first/</link>
       <pubDate>Sat, 15 Apr 2023 11:30:03 +0000</pubDate>
       
-      <guid>/post/first/</guid>
+      <guid>https://theruuuuuu.github.io/post/first/</guid>
       <description>這是標題一 這是標題二 What is Lorem Ipsum?? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
     </item>
     

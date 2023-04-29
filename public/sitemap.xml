@@ -2,47 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://theruuuuuu.github.io/categories/</loc>
+    <lastmod>2023-04-28T12:30:45+08:00</lastmod>
+  </url><url>
+    <loc>https://theruuuuuu.github.io/post/</loc>
+    <lastmod>2023-04-28T12:30:45+08:00</lastmod>
+  </url><url>
+    <loc>https://theruuuuuu.github.io/</loc>
+    <lastmod>2023-04-28T12:30:45+08:00</lastmod>
+  </url><url>
+    <loc>https://theruuuuuu.github.io/categories/%E5%8F%A4%E6%96%87%E7%89%B9%E9%81%B8/</loc>
+    <lastmod>2023-04-28T12:30:45+08:00</lastmod>
+  </url><url>
+    <loc>https://theruuuuuu.github.io/post/%E9%99%B6%E6%B7%B5%E6%98%8E/</loc>
+    <lastmod>2023-04-28T12:30:45+08:00</lastmod>
+  </url><url>
+    <loc>https://theruuuuuu.github.io/post/first/</loc>
     <lastmod>2023-04-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>/post/first/</loc>
+    <loc>https://theruuuuuu.github.io/categories/test/</loc>
     <lastmod>2023-04-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-04-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>/categories/test/</loc>
-    <lastmod>2023-04-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-04-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>/categories/essay/</loc>
+    <loc>https://theruuuuuu.github.io/categories/essay/</loc>
     <lastmod>2023-02-18T22:19:13+08:00</lastmod>
   </url><url>
-    <loc>/post/self-reliance/</loc>
+    <loc>https://theruuuuuu.github.io/post/self-reliance/</loc>
     <lastmod>2023-02-18T22:19:13+08:00</lastmod>
   </url><url>
-    <loc>/post/%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://theruuuuuu.github.io/post/%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-02-18T22:11:12+08:00</lastmod>
   </url><url>
-    <loc>/categories/guide/</loc>
+    <loc>https://theruuuuuu.github.io/categories/guide/</loc>
     <lastmod>2023-02-16T18:58:11+08:00</lastmod>
   </url><url>
-    <loc>/post/markdown_syntax_guide/</loc>
+    <loc>https://theruuuuuu.github.io/post/markdown_syntax_guide/</loc>
     <lastmod>2023-02-16T18:58:11+08:00</lastmod>
   </url><url>
-    <loc>/categories/development/</loc>
+    <loc>https://theruuuuuu.github.io/categories/development/</loc>
     <lastmod>2022-04-10T16:50:28+08:00</lastmod>
   </url><url>
-    <loc>/post/lorem-ipsum/</loc>
+    <loc>https://theruuuuuu.github.io/post/lorem-ipsum/</loc>
     <lastmod>2022-04-10T16:50:28+08:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://theruuuuuu.github.io/about/</loc>
     <lastmod>2019-04-26T20:18:54+03:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://theruuuuuu.github.io/archives/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://theruuuuuu.github.io/tags/</loc>
   </url>
 </urlset>
