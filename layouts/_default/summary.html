@@ -1,9 +1,10 @@
 <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -12,7 +13,13 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
+          <span class="post-time"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>          
+        </div>
+        <div style="text-align: end;">
+          {{ range $idx, $category := .Params.categories }}
+          {{- if ne $idx 0 }}, {{ end }}<a
+              href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
+          {{- end }}
         </div>
       </div>
       

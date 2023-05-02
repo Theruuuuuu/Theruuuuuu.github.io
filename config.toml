@@ -37,6 +37,9 @@ url = "/post"
 [[menu.main]]
 name = "Categories"
 url = "/categories"
+[[menu.main]]
+name = "Tags"
+url = "/tags"
 
 googleAnalytics = 'G-G9BY0NEES5'
 
