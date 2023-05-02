@@ -8,7 +8,7 @@ description = "My site description"
 authorImage = "/images/saul.jpg"
 paginate = 5 
 Title = "我的存放處"
-content = "Hello welcome to my Place"
+content = "Hello welcome to my Place~~"
 imageUrl = "/images/saul.jpg"
 
 # 添加新的社交图标
@@ -21,7 +21,7 @@ name = "email"
 url = "mailto:zxc3309634256@gmail.com"
 [[params.social]]
 name = "instagram"
-url = "your_url"
+url = ""
 
 [taxonomies]
 category = "categories"
