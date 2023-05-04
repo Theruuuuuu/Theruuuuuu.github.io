@@ -14,5 +14,8 @@ heroimage: /images/saul.jpg
 * HTML
 * CSS
 * Bootstrap
+## 作品
+* 購物平台
+https://github.com/Theruuuuuu/mvcEX
 ## 目前在幹嘛
 正在學習網頁相關的知識與技能，未來會想要成為全端工程師。
