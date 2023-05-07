@@ -5,7 +5,22 @@
     <link>https://theruuuuuu.github.io/</link>
     <description>Recent content on TheRU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 May 2023 16:49:49 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 15:42:34 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RssCrawler</title>
+      <link>https://theruuuuuu.github.io/post/rsscrawler/</link>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/post/rsscrawler/</guid>
+      <description>RSS RSS是一種統一的格式標準，常被使用新聞、資訊網站，可以讓使用者輕鬆取得最新的資訊。
+基本格式 以Google News 為例
+title : 文章標題 link : 文章連結 description : 文章詳細資料 source : 文章來源 Feedparser 一個Python library 可以用來解析檔案，RSS是其中一個可以解析的類型。
+使用方式
+先下載 library
+pip install feedparser #引入library import feedparser #目標網址-GoogleNews-搜尋&amp;#34;台灣&amp;#34; url = &amp;#39;https://news.google.com/rss/search?q=%E5%8F%B0%E7%81%A3&amp;amp;hl=zh-TW&amp;amp;gl=TW&amp;amp;ceid=TW%3Azh-Hant&amp;#39; #解析目標網址 res = feedparser.parse(rss_url) print(res) 結果 常用標籤
+entries : 每篇文章的資訊 title : 文章標題 title_detail : 標題細節 link : 文章網址 id : 文章ID published : 發布日期 for post in rss.entries: print(post.title) print (post.published ) print (post.link) 結果</description>
+    </item>
+    
     <item>
       <title>在.Net中使用ChartJs</title>
       <link>https://theruuuuuu.github.io/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/</link>
@@ -87,8 +102,8 @@ What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mol
       <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
       
       <guid>https://theruuuuuu.github.io/about/</guid>
-      <description>簡介 我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。
-技能 ASP.NET 6 MS SQL HTML CSS Bootstrap 目前在幹嘛 正在學習網頁相關的知識與技能，未來會想要成為全端工程師。</description>
+      <description>簡介 我叫做陳柏儒，目前就讀於台北科技大學，資訊與財金管理學系，目前大學三年級。 作為一名學生，我開始自學網站工程，從HTML、CSS和JavaScript入門，進而學習後端語言如C#，以及資料庫管理。 我積極參與線上課程、閱讀相關書籍，並挑戰實際專案來提升技能。透過持續學習和實踐。
+技能 ASP.NET 6 MS SQL HTML CSS Bootstrap 作品 購物平台 https://github.com/Theruuuuuu/mvcEX 目前在幹嘛 正在學習爬蟲、資料分析及網頁相關的知識與技能。</description>
     </item>
     
     <item>

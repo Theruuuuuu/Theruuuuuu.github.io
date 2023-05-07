@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>筆記 on TheRU</title>
+    <link>https://theruuuuuu.github.io/tags/%E7%AD%86%E8%A8%98/</link>
+    <description>Recent content in 筆記 on TheRU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 May 2023 15:42:34 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/tags/%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RssCrawler</title>
+      <link>https://theruuuuuu.github.io/post/rsscrawler/</link>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/post/rsscrawler/</guid>
+      <description>RSS RSS是一種統一的格式標準，常被使用新聞、資訊網站，可以讓使用者輕鬆取得最新的資訊。
+基本格式 以Google News 為例
+title : 文章標題 link : 文章連結 description : 文章詳細資料 source : 文章來源 Feedparser 一個Python library 可以用來解析檔案，RSS是其中一個可以解析的類型。
+使用方式
+先下載 library
+pip install feedparser #引入library import feedparser #目標網址-GoogleNews-搜尋&amp;#34;台灣&amp;#34; url = &amp;#39;https://news.google.com/rss/search?q=%E5%8F%B0%E7%81%A3&amp;amp;hl=zh-TW&amp;amp;gl=TW&amp;amp;ceid=TW%3Azh-Hant&amp;#39; #解析目標網址 res = feedparser.parse(rss_url) print(res) 結果 常用標籤
+entries : 每篇文章的資訊 title : 文章標題 title_detail : 標題細節 link : 文章網址 id : 文章ID published : 發布日期 for post in rss.entries: print(post.title) print (post.published ) print (post.link) 結果</description>
+    </item>
+    
+    <item>
+      <title>在.Net中使用ChartJs</title>
+      <link>https://theruuuuuu.github.io/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/</link>
+      <pubDate>Tue, 02 May 2023 16:49:49 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/</guid>
+      <description>Chart.js?? 他是一個javascript的程式庫，能夠實現圖表功能。
+使用方法 在你要使用的HTML，加上引入
+&amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/chart.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 然後在你想要的地方加入
+&amp;lt;div&amp;gt; &amp;lt;canvas id=&amp;#34;myChart&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt; &amp;lt;/div&amp;gt; 根據官方說明文件建立一個簡單的長條圖
+&amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/chart.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;div&amp;gt; &amp;lt;canvas id=&amp;#34;myChart&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; const ctx = document.getElementById(&amp;#39;myChart&amp;#39;); new Chart(ctx, { type: &amp;#39;bar&amp;#39;, data: { labels: [&amp;#39;Red&amp;#39;, &amp;#39;Blue&amp;#39;, &amp;#39;Yellow&amp;#39;, &amp;#39;Green&amp;#39;, &amp;#39;Purple&amp;#39;, &amp;#39;Orange&amp;#39;], datasets: [{ label: &amp;#39;# of Votes&amp;#39;, data: [12, 19, 3, 5, 2, 3], borderWidth: 1 }] }, options: { scales: { y: { beginAtZero: true } } } }); &amp;lt;/script&amp;gt; 你會的到 加上Ajax 做配合 使用Ajax可以讓我們的圖表資料依據資料的不同而改變</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,22 +5,40 @@
     <link>https://theruuuuuu.github.io/categories/</link>
     <description>Recent content in Categories on TheRU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 May 2023 16:49:49 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 15:42:34 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Csharp</title>
-      <link>https://theruuuuuu.github.io/categories/csharp/</link>
-      <pubDate>Tue, 02 May 2023 16:49:49 +0800</pubDate>
+      <title>Python</title>
+      <link>https://theruuuuuu.github.io/categories/python/</link>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
       
-      <guid>https://theruuuuuu.github.io/categories/csharp/</guid>
+      <guid>https://theruuuuuu.github.io/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
       <link>https://theruuuuuu.github.io/categories/web/</link>
-      <pubDate>Tue, 02 May 2023 16:49:49 +0800</pubDate>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
       
       <guid>https://theruuuuuu.github.io/categories/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>爬蟲</title>
+      <link>https://theruuuuuu.github.io/categories/%E7%88%AC%E8%9F%B2/</link>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/categories/%E7%88%AC%E8%9F%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Csharp</title>
+      <link>https://theruuuuuu.github.io/categories/csharp/</link>
+      <pubDate>Tue, 02 May 2023 16:49:49 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/categories/csharp/</guid>
       <description></description>
     </item>
     

@@ -65,6 +65,8 @@
                 
                 <a href="/categories" class="navbar-item">Categories</a>
                 
+                <a href="/tags" class="navbar-item">Tags</a>
+                
             </div>
 
         </div>
@@ -210,9 +212,46 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
-        <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/">在.Net中使用ChartJs</a></h1>
+      <header class="post-header">        
+        <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/rsscrawler/">RssCrawler</a></h1>
+        
+        
        
+      </header>
+      <div class="post-content">
+        <div class="excerpt post-summary">
+          RSS RSS是一種統一的格式標準，常被使用新聞、資訊網站，可以讓使用者輕鬆取得最新的資訊。
+基本格式 以Google News 為例
+title : 文章標題 link : 文章連結 description : 文章詳細資料 source : 文章來源 Feedparser 一個Python library 可以用來解析檔案，RSS是其中一個可以解析的類型。
+使用方式
+先下載 library
+pip install feedparser #引入library import feedparser #目標網址-GoogleNews-搜尋&#34;台灣&#34; url = &#39;https://news.google.com/rss/search?q=%E5%8F%B0%E7%81%A3&amp;hl=zh-TW&amp;gl=TW&amp;ceid=TW%3Azh-Hant&#39; #解析目標網址 res = feedparser.parse(rss_url) print(res) 結果 常用標籤
+entries : 每篇文章的資訊 title : 文章標題 title_detail : 標題細節 link : 文章網址 id : 文章ID published : 發布日期 for post in rss.entries: print(post.title) print (post.published ) print (post.link) 結果
+        </div>
+        
+        <div class="post-time-container">
+          <span class="post-time"> 2023-05-07 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/python">Python</a>, <a
+              href="/categories/%E7%88%AC%E8%9F%B2">爬蟲</a>, <a
+              href="/categories/web">Web</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</article>
+
+    
+        <article class="post">
+  <div class="single-container column is-centered">
+    <div class="archive" id="post-container">
+      <header class="post-header">        
+        <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/">在.Net中使用ChartJs</a></h1>
+        
+        
        
       </header>
       <div class="post-content">
@@ -225,7 +264,12 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-05-02 </span>
+          <span class="post-time"> 2023-05-02 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/csharp">Csharp</a>, <a
+              href="/categories/web">Web</a>
         </div>
       </div>
       
@@ -237,9 +281,10 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/%E9%99%B6%E6%B7%B5%E6%98%8E/">桃花源記</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -249,7 +294,12 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-04-28 </span>
+          <span class="post-time"> 2023-04-28 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/%E5%8F%A4%E6%96%87%E7%89%B9%E9%81%B8">古文特選</a>, <a
+              href="/categories/test">Test</a>
         </div>
       </div>
       
@@ -261,9 +311,10 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/first/">My 1st post</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -272,7 +323,11 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-04-15 </span>
+          <span class="post-time"> 2023-04-15 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/test">Test</a>
         </div>
       </div>
       
@@ -284,9 +339,10 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/self-reliance/">Self Reliance</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -295,7 +351,11 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-02-18 </span>
+          <span class="post-time"> 2023-02-18 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/essay">Essay</a>
         </div>
       </div>
       
@@ -307,9 +367,10 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E5%B0%8F%E8%AF%B4/">什么是好小说</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -322,7 +383,11 @@
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-02-18 </span>
+          <span class="post-time"> 2023-02-18 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/essay">Essay</a>
         </div>
       </div>
       
@@ -334,9 +399,10 @@
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/markdown_syntax_guide/">Markdown Syntax Guide</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -347,7 +413,11 @@ H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2023-02-16 </span>
+          <span class="post-time"> 2023-02-16 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/guide">Guide</a>
         </div>
       </div>
       
@@ -359,9 +429,10 @@ H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.
         <article class="post">
   <div class="single-container column is-centered">
     <div class="archive" id="post-container">
-      <header class="post-header">
+      <header class="post-header">        
         <h1 class="post-title hover-underline-animation"><a class="post-link" href="/post/lorem-ipsum/">Lorem Ipsum</a></h1>
-       
+        
+        
        
       </header>
       <div class="post-content">
@@ -371,7 +442,11 @@ What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mol
         </div>
         
         <div class="post-time-container">
-          <span class="post-time"> 2022-04-10 </span>
+          <span class="post-time"> 2022-04-10 </span>          
+        </div>
+        <div style="text-align: end;">
+          <a
+              href="/categories/development">Development</a>
         </div>
       </div>
       

@@ -5,7 +5,22 @@
     <link>https://theruuuuuu.github.io/post/</link>
     <description>Recent content in Posts on TheRU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 May 2023 16:49:49 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 15:42:34 +0800</lastBuildDate><atom:link href="https://theruuuuuu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RssCrawler</title>
+      <link>https://theruuuuuu.github.io/post/rsscrawler/</link>
+      <pubDate>Sun, 07 May 2023 15:42:34 +0800</pubDate>
+      
+      <guid>https://theruuuuuu.github.io/post/rsscrawler/</guid>
+      <description>RSS RSS是一種統一的格式標準，常被使用新聞、資訊網站，可以讓使用者輕鬆取得最新的資訊。
+基本格式 以Google News 為例
+title : 文章標題 link : 文章連結 description : 文章詳細資料 source : 文章來源 Feedparser 一個Python library 可以用來解析檔案，RSS是其中一個可以解析的類型。
+使用方式
+先下載 library
+pip install feedparser #引入library import feedparser #目標網址-GoogleNews-搜尋&amp;#34;台灣&amp;#34; url = &amp;#39;https://news.google.com/rss/search?q=%E5%8F%B0%E7%81%A3&amp;amp;hl=zh-TW&amp;amp;gl=TW&amp;amp;ceid=TW%3Azh-Hant&amp;#39; #解析目標網址 res = feedparser.parse(rss_url) print(res) 結果 常用標籤
+entries : 每篇文章的資訊 title : 文章標題 title_detail : 標題細節 link : 文章網址 id : 文章ID published : 發布日期 for post in rss.entries: print(post.title) print (post.published ) print (post.link) 結果</description>
+    </item>
+    
     <item>
       <title>在.Net中使用ChartJs</title>
       <link>https://theruuuuuu.github.io/post/%E5%9C%A8.net%E4%B8%AD%E4%BD%BF%E7%94%A8chartjs/</link>
